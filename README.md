@@ -80,7 +80,7 @@ Now that all the dependencies are installed, we can clone the repository and bui
 
 ### a. Clone the Repository
 ```bash
-git clone [https://github.com/NetrumLabs/netrum-lite-node.git](https://github.com/NetrumLabs/netrum-lite-node.git)
+git clone https://github.com/NetrumLabs/netrum-lite-node.git
 cd netrum-lite-node
 ```
 
