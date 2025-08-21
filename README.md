@@ -1,12 +1,12 @@
-# Netrum Lite Node Setup on Ubuntu: A Comprehensive Guide
+# Netrum Node Setup on Ubuntu: A Comprehensive Guide
 
-This guide provides a detailed, step-by-step tutorial for installing and running a Netrum lite node on a fresh Ubuntu installation. This has been designed to be more comprehensive than the official documentation, including the installation of all necessary dependencies, hardware requirements, and CLI command explanations.
+This guide provides a detailed, step-by-step tutorial for installing and running a Netrum node on a fresh Ubuntu installation, including the installation of all necessary dependencies, hardware requirements, CLI command explanations and performing social tasks.
 
 ---
 
 ## Hardware & Network Requirements
 
-To run the Netrum Lite Node smoothly, make sure your system meets the following minimum requirements:
+To run the Netrum Node smoothly, make sure your system meets the following minimum requirements:
 
 ### Hardware Requirements
 
@@ -66,7 +66,7 @@ go version
 ```
 
 ## 3. Install Git
-We'll use Git to clone the Netrum lite node repository
+We'll use Git to clone the Netrum node repository
 ```bash
 sudo apt install git -y
 ```
@@ -75,7 +75,7 @@ Verify the installation:
 git --version
 ```
 
-## 4. Build the Netrum Lite Node
+## 4. Build the Netrum Node
 Now that all the dependencies are installed, we can clone the repository and build the node.
 
 ### a. Clone the Repository
