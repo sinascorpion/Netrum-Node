@@ -118,6 +118,20 @@ Here is a list of available commands and their functions.
 -   `netrum-wallet` : Displays wallet information including your public address and NPT balance. Use this to check if your mined rewards have been received.
 -   `netrum-wallet-key` : Reveals both the public and private keys of your wallet. Only use this in a secure environment and never share your private key.
 -   `netrum-wallet-remove` : Deletes your wallet from the local VPS. Make sure to back up your private key or seed phrase before running this command, as this action cannot be undone.
+
+## Update
+If the team announce an update on their Discord, you just need to go to the node directory
+```bash
+cd netrum-lite-node
+```
+and send pull request
+```bash
+git pull
+```
+Then check logs
+```bash
+netrum-mining-log
+```
 ---
 
 
