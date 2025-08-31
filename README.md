@@ -104,7 +104,7 @@ Now you can run the `netrum` commands from anywhere in your terminal.
 Here is a list of available commands and their functions.
 
 -   `netrum-system` : This command checks your VPS system status, including CPU, RAM, and internet speed. Use it to make sure your machine meets the basic requirements before setup.
-# Wallet: you have 2 options for the wallet, create a new wallet, import it into your Metamask and mint a base domain:
+* Wallet: you have 2 options for the wallet, create a new wallet, import it into your Metamask and mint a base domain:
 -   `netrum-new-wallet` : Creates a new EVM-compatible wallet directly from the CLI. It will generate your public address and private key, all of which you should store securely.
 
 or
