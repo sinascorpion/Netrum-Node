@@ -45,7 +45,7 @@ The Netrum node is written in Go. We will install the latest version of Go.
 
 ### a. Download and Extract Go
 ```bash
-wget [https://golang.org/dl/go1.22.5.linux-amd64.tar.gz](https://golang.org/dl/go1.22.5.linux-amd64.tar.gz)
+wget https://golang.org/dl/go1.22.5.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.22.5.linux-amd64.tar.gz
 rm go1.22.5.linux-amd64.tar.gz
 ```
