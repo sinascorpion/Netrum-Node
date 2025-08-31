@@ -141,53 +141,6 @@ netrum-mining-log
 ```
 ---
 
-
-## 6. (Optional) Run Node as a Systemd Service
-To ensure your node runs continuously in the background and restarts automatically (for commands like `netrum-sync` or `netrum-mining`), you can create a `systemd` service.
-
-### a. Create the Service File
-```bash
-sudo nano /etc/systemd/system/netrumd.service
-```
-
-### b. Add the Following Content
-Paste the following into the editor. **Make sure to replace `your_user` with your actual username and `your_command` with the command you want to run (e.g., `netrum-sync`).**
-```ini
-[Unit]
-Description=Netrum Lite Node Service
-After=network.target
-
-[Service]
-User=your_user
-Type=simple
-ExecStart=/usr/local/bin/netrum your_command
-Restart=on-failure
-RestartSec=5
-LimitNOFILE=65535
-
-[Install]
-WantedBy=multi-user.target
-```
-Save and close the file. (In `nano`, press `Ctrl+X`, then `Y`, then `Enter`).
-
-### c. Enable and Start the Service
-```bash
-sudo systemctl daemon-reload
-sudo systemctl enable netrumd
-sudo systemctl start netrumd
-```
-
-### d. Check the Service Status
-You can check the status of your node at any time with:
-```bash
-sudo systemctl status netrumd
-```
-To view the logs in real-time:
-```bash
-sudo journalctl -u netrumd -f
-```
----
-
 Now join Discord: https://discord.gg/eWZATZGKZs
 Go to `#bot-commands` channel and send this command to register your node
 ```bash
