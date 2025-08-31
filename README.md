@@ -106,7 +106,9 @@ Here is a list of available commands and their functions.
 -   `netrum-system` : This command checks your VPS system status, including CPU, RAM, and internet speed. Use it to make sure your machine meets the basic requirements before setup.
 * Wallet: you have 2 options for the wallet, create a new wallet, import it into your Metamask and mint a base domain:
 -   `netrum-new-wallet` : Creates a new EVM-compatible wallet directly from the CLI. It will generate your public address and private key, all of which you should store securely.
+
 or
+
 Import your wallet that minted the base domain with it before (submit private key without 0x)
 -   `netrum-import-wallet` : Allows you to import an existing wallet by entering your private key. This is useful if you already have a Base domain tied to a wallet you control.
 -   `netrum-check-basename` : Checks whether your current wallet has a registered Base domain name. Your Base name will also become your Netrum Node ID.
